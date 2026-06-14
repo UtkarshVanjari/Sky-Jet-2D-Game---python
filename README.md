@@ -1,103 +1,309 @@
-Sky Jet – 2D Jet Shooter Game 🎮
+<div align="center">
 
-Author: Utkarsh Vanjari
-Tech stack: Python + Pygame
-GitHub: [Insert your repo link here]
+# ✈️ Sky Jet – 2D Arcade Shooter Game
 
-🚀 Project Overview :-
+### An Action-Packed Pygame Adventure Through the Skies
 
-“Sky Jet” is an immersive action-arcade style 2D jet shooter built using Pygame. Players pilot a jet through the skies, dodge incoming missiles and obstacles, fight for survival and chase high scores.
-I designed this for fun and as a showcase of game-mechanics, UI flow and user experience, drawing on my passion for both coding and gaming.
+![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge)
+![Pygame](https://img.shields.io/badge/Pygame-Game%20Development-green?style=for-the-badge)
+![2D Game](https://img.shields.io/badge/2D-Arcade%20Shooter-red?style=for-the-badge)
+![Multiplayer](https://img.shields.io/badge/Multiplayer-2%20Players-orange?style=for-the-badge)
 
+### 🚀 Fly • Dodge • Survive • Conquer
 
-🎯 Key Features :-
+</div>
 
-Moving blue-sky background with static stone-wall sides, creating a dynamic yet grounded environment.
+---
 
-Countdown screen at the start — retains the original blue-sky background image (no grey fill).
+# 📖 Project Overview
 
-Main menu, instructions screen, pause/resume functionality.
+**Sky Jet** is a feature-rich 2D arcade-style jet shooter developed using Python and Pygame.
 
-Multiple levels of increasing difficulty.
+Players take control of a fighter jet and navigate through challenging skies filled with incoming missiles, obstacles, and increasing difficulty levels. The objective is simple: survive as long as possible, avoid collisions, achieve the highest score, and unlock exciting new aircraft.
 
-Score tracking + heart-based lives system.
+This project combines engaging gameplay mechanics, interactive menus, visual effects, multiplayer functionality, and progression systems into a complete gaming experience.
 
-New: Two-player mode added — one player controlling jet A and the second controlling jet B (friendly competition or cooperation!).
+---
 
-Shop feature: Use your in-game score to unlock new jet skins and preview them in the shop menu.
+# 🎯 Key Features
 
+## ✈️ Core Gameplay
 
-🔧 Why I Built It :=
+✅ Fast-Paced Arcade Action
 
-As part of my learning journey:
+✅ Smooth Jet Movement
 
-To deepen my hands-on experience in Python / Pygame game development.
+✅ Missile Avoidance Mechanics
 
-To explore UI/UX flows in games (menus, levels, lives, scores).
+✅ Dynamic Difficulty Scaling
 
-Because the technical challenge of adding features like moving background + shop system + multiplayer mode excited me.
+✅ Increasing Level Progression
 
-To share a fun, complete project in my portfolio (tieing into my broader interest in software, cloud and solution architecture).
+✅ Real-Time Score Tracking
 
+✅ Survival-Based Gameplay
 
-🎮 How to Run :-
+---
 
-This is the fun part! 🎉
-You can create your own 2D Sky Jet Game in just a few minutes — all you need is Python and Pygame.
+# 🎮 Multiplayer Mode
 
-Here’s how:
+Challenge a friend in local multiplayer mode.
 
-1. Create a Folder
-Make a new folder named sky-jet.
+### Features
 
-2. Add Assets
-Inside that folder, create another folder named assets.
-Put all your PNGs inside this folder — for example:
-background.png  
-jet1.png  
-jet1_alt.png  
-jet2.png  
-missile.png  
-(You can also add your own sprites or rename them in the code.)
+- Two Simultaneous Players
+- Independent Controls
+- Competitive Gameplay
+- Shared Environment
+- Enhanced Replayability
 
-3. Create the Python File
-Inside the sky-jet folder, make a file named main.py.
+Player 1 and Player 2 can compete to survive longer and achieve the highest score.
 
-4. Copy the Game Code
-Simply copy my Sky Jet game code and paste it inside main.py.
-(I’ll include the full working code in this repository.)
+---
 
-5. Install Pygame
-Open your terminal or VS Code terminal and type:-
+# ❤️ Lives & Scoring System
+
+The game includes a visual health system represented by heart icons.
+
+### Mechanics
+
+- Multiple Lives
+- Score Tracking
+- High Score Challenge
+- Survival Rewards
+
+Players must carefully avoid obstacles to preserve their lives and maximize their score.
+
+---
+
+# 🛒 In-Game Shop System
+
+Unlock and customize your gameplay experience using earned points.
+
+### Shop Features
+
+✅ Score-Based Currency
+
+✅ Unlockable Jets
+
+✅ Jet Preview System
+
+✅ Visual Customization
+
+Players can spend accumulated points to unlock new aircraft and personalize their gameplay experience.
+
+---
+
+# 🌌 Dynamic Environment
+
+Sky Jet features an immersive visual experience including:
+
+- Moving Blue-Sky Background
+- Static Stone Wall Boundaries
+- Smooth Scrolling Effects
+- Atmospheric Gameplay Environment
+
+The countdown screen also preserves the original sky background for a seamless user experience.
+
+---
+
+# 🎨 User Interface
+
+The game includes a complete menu system designed for accessibility and usability.
+
+### UI Components
+
+- Main Menu
+- Instructions Screen
+- Pause Menu
+- Resume Functionality
+- Level Selection
+- Shop Interface
+- Game Over Screen
+
+---
+
+# 🏗️ Game Flow
+
+```text
+Launch Game
+      │
+      ▼
+Main Menu
+      │
+      ▼
+Countdown Screen
+      │
+      ▼
+Gameplay Begins
+      │
+      ▼
+Avoid Missiles & Obstacles
+      │
+      ▼
+Earn Score
+      │
+      ▼
+Unlock New Jets
+      │
+      ▼
+Progress Through Levels
+      │
+      ▼
+Game Over / Victory
+```
+
+---
+
+# 🛠️ Technology Stack
+
+| Technology | Purpose |
+|------------|---------|
+| Python | Core Development |
+| Pygame | Game Engine |
+| Object-Oriented Programming | Game Logic |
+| PNG Assets | Graphics & Sprites |
+| Event Handling | User Input |
+| Collision Detection | Gameplay Mechanics |
+
+---
+
+# 📂 Project Structure
+
+```text
+Sky-Jet
+│
+├── main.py
+│
+├── assets/
+│   ├── background.png
+│   ├── jet1.png
+│   ├── jet1_alt.png
+│   ├── jet2.png
+│   ├── missile.png
+│   └── ...
+│
+└── screenshots/
+```
+
+---
+
+# 🚀 Getting Started
+
+## 1️⃣ Clone Repository
+
+```bash
+git clone <repository-url>
+```
+
+## 2️⃣ Install Dependencies
+
+```bash
 pip install pygame
+```
 
-6. Run the Game
-Now just type:
+## 3️⃣ Add Assets
+
+Place all required PNG files inside the assets directory.
+
+Example:
+
+```text
+background.png
+jet1.png
+jet1_alt.png
+jet2.png
+missile.png
+```
+
+## 4️⃣ Run the Game
+
+```bash
 python main.py
+```
 
-7. Enjoy the Magic!
-That’s it — your 2D Sky Jet Game is ready to fly!
-Watch your jet soar through the skies, dodge missiles, and rack up that score 🪄
+---
 
+# 🎓 Skills Demonstrated
 
+This project showcases practical experience in:
 
-🛠 Future Improvements :-
+- Python Development
+- Game Development
+- Pygame Framework
+- Object-Oriented Programming
+- UI/UX Design
+- Event Handling
+- Collision Detection
+- Multiplayer Logic
+- State Management
+- Interactive Application Development
 
-Online multiplayer mode (networked two-player).
+---
 
-More enemy types (bosses, different missiles, aerial obstacles).
+# 📸 Screenshots
 
-Power-ups (shield, double-shot, speed boost).
+The repository contains screenshots demonstrating:
 
-Leaderboard integration (cloud or local).
+✅ Main Menu
 
-Mobile adaptation (touch controls).
+✅ Gameplay
 
-Refactoring via a game-engine pattern (e.g., state-machine, scenes).
+✅ Multiplayer Mode
 
+✅ Shop System
 
-This project reflects my journey as a developer — from writing automation scripts to creating interactive Python games.
-If you love Python, creativity, or simply want to see how far you can push your imagination, Sky Jet is a great starting point.
+✅ Countdown Screen
 
-Clone it. Run it. Play it.
-And watch your jet touch the sky. ☁️
+✅ Level Progression
+
+✅ Score Tracking
+
+✅ Game Over Screen
+
+---
+
+# 🔮 Future Enhancements
+
+Planned upgrades include:
+
+- Online Multiplayer
+- Global Leaderboards
+- Boss Battles
+- Power-Ups & Special Weapons
+- Mobile Compatibility
+- Cloud Save Support
+- Achievement System
+- Advanced Enemy AI
+
+---
+
+# 👨‍💻 Author
+
+## Utkarsh Vanjari
+
+Cyber Security Intern @ Maharashtra Cyber
+
+AWS Certified | Python Developer | Cloud Enthusiast | Cyber Security Learner
+
+---
+
+# ⭐ Support
+
+If you enjoyed this project:
+
+⭐ Star this repository
+
+🍴 Fork the project
+
+📢 Share it with fellow developers and gamers
+
+---
+
+<div align="center">
+
+### ✈️ Take Flight. Dodge Danger. Rule the Skies.
+
+**Sky Jet – Built with Python & Pygame**
+
+</div>
